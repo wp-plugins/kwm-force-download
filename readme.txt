@@ -2,7 +2,7 @@
 Contributors: Kelvin-mariano
 Tags: force download, download, forçar o download, force download image, force download img, forçar o download de imagem, download de imagem, image download, kwm, plugin de forçar download, plugin force download, automatic download image, download automatico
 Requires at least: 3.9.1
-Tested up to: 4.1
+Tested up to: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
