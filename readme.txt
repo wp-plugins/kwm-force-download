@@ -21,8 +21,8 @@ Plugin para forçar o download de imagens de modo fácil e simples, com url de d
 3. Click the KWM Force Download menu and set the example images download slug: downloads
 4. Place the class at kwm-force-donwload from the tag <a> and attribute data-forcedownload
 5. The attribute data-forcedownload must contain the image ID
-5. Exemple: <blockquote><a href="#" class="kwm-force-donwload" data-forcedownload="150">Imagem</a><\blockquote>
-6. you should use different default permalinks. use eg meusite.com.br/category/post_type
+6. Exemple: <blockquote><a href="#" class="kwm-force-donwload" data-forcedownload="150">Imagem</a><\blockquote>
+7. you should use different default permalinks. use eg meusite.com.br/category/post_type
 
 == Screenshots ==
 
