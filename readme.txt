@@ -13,11 +13,11 @@ Force download images in a simple and easy.
 Plugin to force downloading easy and simple way to images, with custom url eg downloads: meusite.com/downloads/id-da-imagem.
 This force plugins to download the files securely addition to not show the location of the original file. it also makes the file format of the check and if it is in the media gallery wordpress.
 
--------PT BR----------
+-------PT BR----------<br />
 Plugin para forçar o download de imagens de modo fácil e simples, com url de downloads personalizadas ex: meusite.com/downloads/id-da-imagem.
 Este plugins forca o download dos arquivos de forma segura além de não mostrar o local do arquivo original. ele também faz a checagem do formato do arquivo e se ele está na galeria de mídia do wordpress
 
-1.1 version------
+<strong>1.1 version</strong>------<br />
 new supported file formats were added.
 Some of them are: flv, mp4, m3u8, ts, 3gp, mov, avi, wmv, pdf, swf, torrent, zip, rar, docm, dotm, potm, docx, dotx, psd, among others.
 
