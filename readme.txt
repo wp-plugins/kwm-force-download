@@ -41,5 +41,9 @@ Some of them are: flv, mp4, m3u8, ts, 3gp, mov, avi, wmv, pdf, swf, torrent, zip
 
 == Changelog ==
 
+= 1.1 =
+* new supported file formats were added.
+Some of them are: flv, mp4, m3u8, ts, 3gp, mov, avi, wmv, pdf, swf, torrent, zip, rar, docm, dotm, potm, docx, dotx, psd, among others.
+
 = 1.0 =
 * Launch of the plugin
