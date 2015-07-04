@@ -4,7 +4,7 @@ Plugin Name: KWM Force Download
 
 Description: Plugin para forçar o download de imagens simples fácil e básico
 
-Version: 1.0
+Version: 1.1
 
 Author: KWM
 

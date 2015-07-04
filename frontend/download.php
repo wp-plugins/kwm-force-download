@@ -27,7 +27,8 @@ function kwm_force_download() {
 				
 				if(is_file($urlArquivo)){
 					
-					$mime_types = array('.png'	=> 'image/png',
+					$mime_types = array(//images
+										'.png'	=> 'image/png',
 										'.jpe'	=> 'image/jpeg',
 										'.jpeg' => 'image/jpeg',
 										'.jpg'	=> 'image/jpeg',
@@ -37,7 +38,48 @@ function kwm_force_download() {
 										'.tiff' => 'image/tiff',
 										'.tif'	=> 'image/tiff',
 										'.svg'	=> 'image/svg+xml',
-										'.svgz' => 'image/svg+xml');
+										'.svgz' => 'image/svg+xml',
+										//arquvios de programa geral
+										'.flv' => 'video/x-flv',
+										'.mp4' => 'video/mp4',
+										'.m3u8' => 'application/x-mpegURL',
+										'.ts' => 'video/MP2T',
+										'.3gp' => 'video/3gpp',
+										'.mov' => 'video/quicktime',
+										'.avi' => 'video/x-msvideo',
+										'.wmv' => 'video/x-ms-wmv',
+										//videos
+										'.pdf' => 'application/pdf',
+										'.swf' => 'application/x-shockwave-flash',
+										'.torrent' => 'application/x-bittorrent',
+										'.zip' => 'application/zip',
+										'.rar' => 'application/x-rar-compressed',
+										'.docm' => 'application/vnd.ms-word.document.macroenabled.12',
+										'.dotm' => 'application/vnd.ms-word.template.macroenabled.12',
+										'.potm' => 'application/vnd.ms-powerpoint.template.macroenabled.12',
+										'.docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+										'.dotx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
+										'.obd' => 'application/x-msbinder',
+										'.thmx' => 'application/vnd.ms-officetheme',
+										'.onetoc' => 'application/onenote',
+										'.mdb' => 'application/x-msaccess',
+										'.asf' => 'video/x-ms-asf',
+										'.exe' => 'application/x-msdownload',
+										'.cil' => 'application/vnd.ms-artgalry',
+										'.cab' => 'application/vnd.ms-cab-compressed',
+										'.ims' => 'application/vnd.ms-ims',
+										'.application' => 'application/x-ms-application',
+										'.clp' => 'application/x-msclip',
+										'.mdi' => 'image/vnd.ms-modi',
+										'.eot' => 'application/vnd.ms-fontobject',
+										'.xls' => 'application/vnd.ms-excel',
+										'.xlam' => 'application/vnd.ms-excel.addin.macroenabled.12',
+										'.xlsb' => 'application/vnd.ms-excel.sheet.binary.macroenabled.12',
+										'.xltm' => 'application/vnd.ms-excel.template.macroenabled.12',
+										'.xlsm' => 'application/vnd.ms-excel.sheet.macroenabled.12',
+										'.chm' => 'application/vnd.ms-htmlhelp',
+										'.psd' => 'image/vnd.adobe.photoshop'
+										);
 					
 					$extension = strrchr(basename($urlArquivo), "." );
 					$type = 'image/jpeg';
