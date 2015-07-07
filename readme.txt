@@ -6,7 +6,7 @@ Tested up to: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Force download images in a simple and easy.
+Plugin to force downloading easy and simple way.This force plugins to download the files securely addition to not show the location of the original file
 
 == Description ==
 
